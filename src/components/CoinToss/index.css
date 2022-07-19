@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.toss-container {
+  background-color: white;
+  height: 80%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.heading {
+  color: e2a139;
+  font-weight: bold;
+}
+.para {
+  color: #334155;
+  font-weight: 400;
+}
+
+.toss-image {
+  height: 160px;
+  width: 160px;
+  margin: 10px;
+}
+
+.button {
+  border-radius: 5px;
+  background-color: #e2a139;
+  border: none;
+  margin: 10px;
+}
+.scores {
+  display: flex;
+  margin: 5px;
+}
+
+.each-score {
+  margin: 5px;
+  color: #475569;
+  font-weight: 600;
+}
